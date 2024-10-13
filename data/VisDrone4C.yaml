@@ -1,0 +1,5 @@
+train: ./datasets/VisDrone4C/train.txt  # train images (relative to 'path')  6620 images
+val: ./datasets/VisDrone4C/val.txt  # val images (relative to 'path')  827 images
+test: ./datasets/VisDrone4C/test.txt  # test images (optional)  827 images
+nc: 4
+names: ['car', 'van', 'truck', 'bus']

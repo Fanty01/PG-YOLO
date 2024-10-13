@@ -1,0 +1,5 @@
+train: ./datasets/DIOR/train.txt  # train images (relative to 'path')  6471 images
+val: ./datasets/DIOR/val.txt  # val images (relative to 'path')  548 images
+#test: ./datasets/DIOR4C/test.txt  # test images (optional)  1610 images
+nc: 20
+names: ['Vehicle', 'Ship', 'Airplane', 'Chimney', 'Airport', 'Baseball field','Basketball court', 'Bridge', 'Dam', 'Expressway service area', 'Expressway toll station', 'Golf course', 'Ground track field', 'Harbor', 'Overpass', 'Stadium', 'Storage tank', 'Tennis court', 'Train station', 'Wind mill',]
